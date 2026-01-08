@@ -246,7 +246,7 @@ function showErrorContent(viewerArea) {
   // Login button
   const loginBtn = document.createElement("a");
   loginBtn.textContent = "Log in to OMERO";
-  loginBtn.href = "https://nife-dev.cancer.gov/omero_plus/login/?url=%2Fwebclient%2F";
+  loginBtn.href = "https://nife-dev.cancer.gov/omero_plus/login/?url=https://omero-shiny-viewer.onrender.com/";
   loginBtn.target = "_blank";
   loginBtn.className = "btn btn-primary";
 
